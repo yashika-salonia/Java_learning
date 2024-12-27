@@ -17,6 +17,8 @@ public class arraylist {
         System.out.println((list));
         list.addFirst(32);
         System.out.println((list));
+        list.add(3,22);
+        System.out.println((list));
 
         //sum
         int sum=0;
