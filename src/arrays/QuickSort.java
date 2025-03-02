@@ -16,9 +16,7 @@ public class QuickSort {
         System.out.println(Arrays.toString(arr));
         System.out.println("Count: " + count);
     }
-
     static int count = 0;
-
     static void quickSort(int arr[], int p, int q) {
         if (p < q) {
             int j = partition(arr, p, q+1);
@@ -26,7 +24,6 @@ public class QuickSort {
             quickSort(arr, j + 1, q);
         }
     }
-
     static int partition(int[] arr, int m, int p) {
         int v=arr[m];
         int i=m; //left
