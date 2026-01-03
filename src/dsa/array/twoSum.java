@@ -23,6 +23,10 @@ public class twoSum{
         }
     }
 
+    static int[] twoPointer(int[] arr, int target){
+        
+    }
+
     static int[] optimalSum(int[] arr,int target){
         HashMap<Integer, Integer> map=new HashMap<>();
         for(int i=0;i<arr.length;i++){
